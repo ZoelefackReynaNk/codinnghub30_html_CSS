@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--icon libary-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         img {
             width: 23px;
@@ -14,38 +16,35 @@
             width: 100%;
             background-color: rgba(0,0,0,0.1);
         }
-        .icon {
+        /*.icon {
+            float: left;
+        }*/
+        button {
             float: left;
         }
-        .header ul {
-            text-align: center;
-        }
-        .header ul li a {
-            display: block;
+        .rey {
+            display: inline;
             font-size: 20px;
-            letter-spacing: 2px;
+            background-color:blueviolet;
         }
         .topnav {
-            text-align: end;
+            /*text-align: end;*/
+            float: right;
         }
     </style>
 </head>
 <body style="background-image: url('https://static-assets.strikinglycdn.com/images/landing4/spread.jpg')">
     <div class="header">
-        <div class="icon">    
-            <!--<span id='clickableAwesomeFont'></span><i class="fa fa-bars"></i></span>-->
+        <button class="btn"><i class="fa fa-bars"></i></button>
+        <!--<div class="icon">    
             <a><img src="threebaricon.png"></a>
-        </div>
+        </div>-->
         <div class="topnav">
-            <ul>
-                <li><a href="">SIGN UP</a></li>
-                <li><a href=""></a>LOG IN</li>
-                <li><a href=""></a>EN</li>
-            </ul>
+            <button class="rey" type="button">SIGN UP</button> 
+            <button class="rey" type="button">LOG IN</button> 
+            <button class="rey" type="button">EN</button> 
         </div>
     </div>
     <i><h1 style="color:white"><b>strickingly</b></h1></i>
 </body>
 </html>
-
-    
